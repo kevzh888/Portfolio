@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kevin Zhu — Portfolio</title>
+
+    <!-- Security headers (OWASP) -->
+    <!-- CSP: self-only scripts/styles/media; no eval; no inline scripts (except style for @keyframes) -->
+    <meta http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; media-src 'self'; connect-src 'none'; font-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'none';" />
+    <!-- Prevent MIME sniffing -->
+    <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+    <!-- No referrer sent to external links -->
+    <meta name="referrer" content="no-referrer" />
+    <!-- Disable browser features not used by this app -->
+    <meta http-equiv="Permissions-Policy" content="camera=(), microphone=(), geolocation=(), payment=()" />
+
+    <!-- SEO / social -->
+    <meta name="description" content="Kevin Zhu — Technical Product Manager, Cloud & Gen AI. Open to IT Strategy, Digital Transformation, PM/PO and Project Manager roles." />
+    <meta property="og:title" content="Kevin Zhu — Portfolio" />
+    <meta property="og:description" content="TPM & weekend photographer. Open to opportunities Sept–Nov 2026." />
+    <meta property="og:type" content="website" />
+    <style>
+      *, *::before, *::after { box-sizing: border-box; }
+      html, body, #root { margin: 0; padding: 0; width: 100%; height: 100%; }
+      body {
+        background: #0e1a26;
+        font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', system-ui, sans-serif;
+        overflow: hidden;
+        -webkit-font-smoothing: antialiased;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
