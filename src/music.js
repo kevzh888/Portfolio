@@ -4,8 +4,8 @@
 //   title, artist, album   — displayed in the player UI
 //   duration               — display string e.g. "3:24"
 //   color                  — [darkColor, darkerColor] used as album art background
-//   cover                  — path inside /public  e.g. "/music/my-track-cover.jpg"
-//   src                    — path inside /public  e.g. "/music/my-track.mp3"
+//   cover                  — path inside /public  e.g. "./music/my-track-cover.jpg"
+//   src                    — path inside /public  e.g. "./music/my-track.mp3"
 //
 // Good sources for DMCA-free music:
 //   https://freemusicarchive.org  (filter by CC license)
@@ -13,10 +13,10 @@
 //   https://soundcloud.com/search?filter.license=to_use_commercially
 
 const SONGS = [
-  { title: "Lofi Beats",        artist: "Mondamusic",  album: "Pixabay",  duration: "2:24", color: ["#2a1f3d", "#0f0a1a"], cover: null, src: "/music/lofi-beats.mp3" },
-  { title: "Lofi Instrumental", artist: "Pulsebox",    album: "Pixabay",  duration: "2:12", color: ["#1a2d3d", "#080f18"], cover: null, src: "/music/lofi-instrumental.mp3" },
-  { title: "The Mountain",      artist: "The Mountain",album: "Pixabay",  duration: "1:42", color: ["#1f2d1f", "#090f09"], cover: null, src: "/music/lofi-mountain.mp3" },
-  { title: "Lofi Chill",        artist: "Watermello",  album: "Pixabay",  duration: "2:16", color: ["#2d1f2a", "#100810"], cover: null, src: "/music/lofi-chill.mp3" },
+  { title: "Lofi Beats",        artist: "Mondamusic",  album: "Pixabay",  duration: "2:24", color: ["#2a1f3d", "#0f0a1a"], cover: null, src: "./music/lofi-beats.mp3" },
+  { title: "Lofi Instrumental", artist: "Pulsebox",    album: "Pixabay",  duration: "2:12", color: ["#1a2d3d", "#080f18"], cover: null, src: "./music/lofi-instrumental.mp3" },
+  { title: "The Mountain",      artist: "The Mountain",album: "Pixabay",  duration: "1:42", color: ["#1f2d1f", "#090f09"], cover: null, src: "./music/lofi-mountain.mp3" },
+  { title: "Lofi Chill",        artist: "Watermello",  album: "Pixabay",  duration: "2:16", color: ["#2d1f2a", "#100810"], cover: null, src: "./music/lofi-chill.mp3" },
 ];
 
 const state = {
