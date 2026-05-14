@@ -45,7 +45,7 @@ export function MacLockScreen({ onUnlock, dark = true }) {
       transition:'opacity 420ms cubic-bezier(.2,.7,.2,1)',
       fontFamily:'-apple-system,BlinkMacSystemFont,system-ui,sans-serif',
     }}>
-      <img src="/uploads/headshot.jpg" alt="Kevin Zhu"
+      <img src="./uploads/headshot.jpg" alt="Kevin Zhu"
         style={{ width:90, height:90, borderRadius:45, marginBottom:18, border:'2px solid rgba(255,255,255,0.28)', objectFit:'cover', boxShadow:'0 8px 24px rgba(0,0,0,0.45)' }}
         onError={e => { e.currentTarget.style.display='none'; }}
       />
